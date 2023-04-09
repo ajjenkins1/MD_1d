@@ -3,8 +3,7 @@ Py scripts for 1d harmonic oscillator and diatomic vibrational spectrum.
 
 Forms an assignment for graduate students that I have used in the past. Step-by-step details are given in Assignment.pdf.
 
-
-1d_MD.py                   # starting point, harmonic oscillator, integrates with Euler
+1d_MD.py, input.dat        # starting point, harmonic oscillator, integrates with Euler 
 
 These scripts represent the intermediate steps in the assignment, and can be used to check your progress.
 
