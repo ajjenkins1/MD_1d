@@ -1,0 +1,15 @@
+
+## System Dependent Parameters - Harmonic Oscillator
+k = 1.e-2       # Harmonic oscillator force constant (Hartree/(Bohr^2)
+xeq = 1.0       # Harmoinc oscillator equilibrium bond length (Bohr) 
+mass = 1.0      # reduced mass for the vibrational mode in a.u.
+xinit = 1.05e0  # initial bond length (Bohr) 
+
+# Dynamics Parameters 
+vinit = 0.e0    # initial velocity (Bohr/(a.u. of time))
+delT = 1.e-2    # in a.u. of time
+Nstep = 1000000 # number of steps
+Verlet = True   # toggle Verlet else Euler
+
+# Compute vibrational Spectrum? 
+dospec = True 

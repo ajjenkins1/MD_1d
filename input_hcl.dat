@@ -1,0 +1,19 @@
+
+## Molecule Dependent Parameters - HCl 
+mass = 35/36*1836.152 # reduced mass for the vibrational mode in a.u.
+xinit = 2.5           # initial bond length (Bohr)
+# Morse Potential Parameters Pot = d * (exp( -2.0*a*(x-xeq) ) - 2.0*(exp(-a*(x-xeq)) )) + c
+d = 2.126628024168022990e-01 
+a = 8.387449630613514895e-01
+xeq = 2.540499249538322513e+00
+c = -4.606043795214562806e+02
+
+
+# Dynamics Parameters
+vinit = 0.e0        # initial velocity (Bohr/(a.u. of time))
+delT = 1.e-2        # in a.u. of time
+Nstep = 1000000     # Number of steps 
+Verlet = True       # toggle Verlet else Euler
+
+# Compute vibrational Spectrum?
+dospec = True 
